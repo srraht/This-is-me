@@ -8,7 +8,7 @@ const ThankYou = () => {
   return (
     <div className="thanks">
         <div className="thanks-content">
-        <h1>Thanks, for scrolling</h1>
+        <h1>Thanks for scrolling</h1>
         <button className="back-btn" onClick={scrollBack}>Back to Top</button>
       </div>
     </div>
