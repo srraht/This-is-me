@@ -1,0 +1,32 @@
+
+html {
+    scroll-behavior: smooth;
+}
+.navbar {
+    position: absolute; /* Keeps the navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Extends the navbar across the entire width of the page */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between brand and links */
+    background-color: rgba(255, 255, 255, 0.1); /* White with 80% opacity */
+    backdrop-filter: blur(5px);
+    z-index: 10; /* Makes sure it stays on top */
+  }
+  .navbar h1 {
+    color: #9435F2;
+  }
+  .navbar .links {
+    margin-left: auto;
+    font-size: 1.2rem;
+  }
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  .navbar a:hover {
+    color: #05DBF2;
+  }

@@ -1,0 +1,94 @@
+/* Reset styles for consistent behavior */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* About section styling */
+.about {
+  background-color: #0f0f0f;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: row; /* Align text and image side by side */
+  justify-content: space-between; /* Space between the text and image */
+  align-items: center; /* Align text and image to the top */
+  padding: 50px; /* Add padding for spacing */
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+/* Text content */
+.about-content {
+  max-width: 40%; /* Reduce text width to give more space to the image */
+}
+
+/* About image (on the right) */
+.about-image {
+  max-width: 55%; /* Increase the width of the image to make it bigger */
+}
+
+/* Styling for h1 */
+.about h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color:#9D43D9;  /* Add space below the heading */
+}
+
+/* Styling for paragraph */
+.about p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color:white; /* Improve readability with line spacing */
+}
+
+.about-content li {
+  font-size: 1.4rem; /* Increase font size for list items */
+  line-height: 1.8; /* Improve readability */
+  padding-left: 20px;
+  color:#ffffff; /* Add some padding for indentation */
+}
+
+/* Image styling */
+.about-image img {
+  width: 100%; /* Make the image take up the full width of its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  border-radius: 10px; /* Optional: Add rounded corners to the image */
+  object-fit: cover; /* Ensure the image covers its container without distortion */
+}
+
+/* Resume button styling */
+.resume-button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  font-weight: bold; /* Make the font bold */
+  text-decoration: none; /* Remove underline */
+  color: white;
+  background-color: #6204BF;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 40px; /* Increase margin to create space from text */
+  z-index: 1;
+  display: inline-block; /* Make it behave like a button */
+}
+
+.resume-button:hover {
+  background-color: #9D43D9;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .about {
+      flex-direction: column; /* Stack text and image vertically on small screens */
+      text-align: center; /* Center-align text for smaller screens */
+  }
+
+  .about-content, .about-image {
+      max-width: 100%; /* Full width for both content and image */
+  }
+
+  .about-image {
+      margin-top: 20px; /* Add space above the image when stacked */
+  }
+}

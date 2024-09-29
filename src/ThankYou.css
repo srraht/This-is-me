@@ -1,0 +1,40 @@
+.thanks {
+    height: 100vh; /* Full viewport height */
+    width: 100%;   /* Full width */
+    background-image: url('./background.jpg');
+    background-size: cover;   /* Cover the entire background */
+    background-position: center;
+    display: flex;  /* Flexbox to center content */
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    position: relative; /* Needed for overlay effect */
+    margin:0;
+    padding:0;
+
+    /* parallax scrolling */
+    background-attachment: fixed;
+  }
+  
+  .thanks-content {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    z-index: 1; /* Ensures content is on top */
+  }
+  
+  .back-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #6204BF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    z-index: 1;
+  }
+  
+  .back-btn:hover {
+    background-color: #9D43D9;
+  }
+  
