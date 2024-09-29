@@ -1,7 +1,7 @@
 import React from 'react';
-import resume from '/Users/smarit/Desktop/Coding Projects/This is me/dojo-blog/src/Tran_Sarah_Resume.pdf'
+import resume from './Tran_Sarah_Resume.pdf'
 import './About.css'
-import testImage from '/Users/smarit/Desktop/Coding Projects/This is me/dojo-blog/src/about-me-image.jpeg'
+import testImage from './about-me-image.jpeg'
 const About = () => {
     const openResume = () => {
         window.open({resume}, '_blank', 'noopener,noreferrer');

@@ -1,11 +1,11 @@
 .arts {
-    height: 115vh; /* Full viewport height */
+    height: 125vh; /* Full viewport height */
     width: 100%;   /* Full width */
     background-image: url('./images/art-background.jpg');
     background-size: cover;
     background-position: center bottom;
     display: flex;  /* Flexbox to center content */
-    align-items: top; /* Vertically center content */
+    align-items: bottom; /* Vertically center content */
     justify-content: flex-end; /* Align content to the right */
     position: relative; /* Needed for overlay effect */
     margin: 0;
@@ -28,5 +28,24 @@
     font-size: 1.5rem;
     line-height: 1.6;
     color:white; /* Improve readability with line spacing */
+  }
+  
+  .music-button {
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    text-decoration: none; /* Remove underline */
+    color: white;
+    background-color: #6204BF;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px; /* Increase margin to create space from text */
+    margin-bottom: 20px;
+    z-index: 1;
+    display: inline-block; /* Make it behave like a button */
+  }
+  
+  .resume-button:hover {
+    background-color: #9D43D9;
   }
   

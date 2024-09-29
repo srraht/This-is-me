@@ -12,6 +12,9 @@ import image9 from './images/art10.jpeg';
 import image10 from './images/art11.jpeg';
 import image11 from './images/art2.jpeg';
 import image12 from './images/art12.jpg';
+import image13 from './images/art13.jpeg';
+import image14 from './images/art14.jpeg';
+import image15 from './images/art15.jpeg';
 
 
 const ImageGallery = () => {
@@ -27,7 +30,10 @@ const ImageGallery = () => {
       { src: image9, alt: 'Art 9' },
       { src: image10, alt: 'Art 10' },
       { src: image11, alt: 'Art 11' },
-      { src: image12, alt: 'Art 12' }
+      { src: image12, alt: 'Art 12' },
+      { src: image13, alt: 'Art 13' },
+      { src: image14, alt: 'Art 14' },
+      { src: image15, alt: 'Art 15' }
 
       
     ];

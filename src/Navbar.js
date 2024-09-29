@@ -1,7 +1,7 @@
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import React from 'react';
 import './Navbar.css'
-import resume from '/Users/smarit/Desktop/Coding Projects/This is me/dojo-blog/src/Tran_Sarah_Resume.pdf'
+import resume from './Tran_Sarah_Resume.pdf'
 const Navbar = () => {
     return (
       <nav className="navbar">
